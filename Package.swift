@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Animator",
+    platforms: [.iOS(.v8)],
     products: [
         .library(name: "Animator", targets: ["Animator"]),
     ],
