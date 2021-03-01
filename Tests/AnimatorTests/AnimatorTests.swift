@@ -4,7 +4,7 @@ import XCTest
 final class AnimatorTests: XCTestCase {
     func testExample() {
         
-        /// 创建     open class func animate(withDuration duration: TimeInterval, delay: TimeInterval, options: UIView.AnimationOptions = [], animations: @escaping () -> Void, completion: ((Bool) -> Void)? = nil)
+        /// 创建 UIView.animate
         ///
         ///     UIView.animate(withDuration: 0.25, delay: 0.5, options: .curveEaseInOut) {
         ///         self.redView.frame = CGRect(x: 10, y: 80, width: 80, height: 80)
